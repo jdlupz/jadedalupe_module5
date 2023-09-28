@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar{
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color:aqua;
+}
+
+#spotify{
+    background-color: green;
+}
+#spotify a{
+    color:white;
+}
+
+#facebook{
+    background-color: blue;
+}
+#facebook a{
+    color:white;
+}
+
+#github{
+    background-color: gray;
+}
+#github a{
+    color:white;
+}
+
+#tiktok{
+    background-color: purple;
+}
+#tiktok a{
+    color:white;
+}
+
+#youtube{
+    background-color: red;
+}
+#youtube a{
+    color:white;
+}
+
+.links{
+    border: 1px solid black;
+    display: inline;
+    font-family: 'Croissant One', cursive;
+    text-transform: uppercase;
+    font-weight: 600;
+    opacity: 0.7;
+    transition: .4s;
+    border-radius: 5px;
+    
+}
+.links:hover{
+    opacity: 1;
+    transition: .4s;
+    font-size: larger;
+    padding: 10px;
+}
+#linksgroup{
+    text-align: center;
+}
+
+.links a{
+    text-decoration: none;
+}
+
+.banner{
+    background-image:url('images/coffee.jpg');
+    background-size: cover;
+    background-position: center;
+    width:100vw;
+    height:350px;
+}
+
+.bannertext{
+    position: absolute;
+    top: 18%;
+    left: 8%;
+    
+}
+
+.bannertext h2{
+    text-transform:uppercase;
+    color:rgb(180, 98, 50);
+    font-size: 4em;
+}
+
+.bannertext h2 span{
+    color:rgb(120, 58, 24);
+}
+
+.bannertext h2 span span{
+    color:rgb(68, 31, 9);
+}
+
+.bannertext p{
+    color:white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.banner a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 1em;
+    background-color:rgb(70, 30, 7);
+    margin-top: 1em;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-weight: 700;
+}
